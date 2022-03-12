@@ -1,0 +1,288 @@
+/* ==========
+Template Name:
+Template url:
+Description:
+Author:w3codevs
+Author url: https://w3codevs.com
+version:1.1.1
+======== */
+
+/*=======================
+css index:
+
+0.1 Template default css.
+0.2 Header css.
+0.3 Home css.
+========================*/
+
+
+
+
+
+
+/*==================
+Google fonts:
+================*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700;800&display=swap');
+
+
+/*=========Template default css==========*/
+
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+a:focus,
+select:focus,input:focus{
+ text-decoration: none !important;
+ outline: none !important;
+ box-shadow: none !important;
+ 
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:800 ;
+}
+
+p{
+     
+
+}
+
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.form-control:focus{
+    outline: 0;
+    box-shadow: none;
+
+}
+
+
+::placeholder{
+    color: #a1a3ca;
+
+}
+
+[type="color"]:focus,
+[type="date"]:focus,
+[type="datetime"]:focus,
+[type="datetime-local"]:focus,
+[type="month"]:focus,
+[type="number"]:focus,
+[type="password"]:focus,
+[type="search"]:focus,
+[type="tel"]:focus,
+[type="text"]:focus,[type="time"]:focus,[type="url"]:focus,[type="link"]:focus,
+input:not([type]):focus,
+textarea:focus{
+ border-color: red;
+ -webkit-box-shadow:none !important;
+ box-shadow: none !important;
+}
+
+button:focus{
+   outline: none !important;
+   border: none !important; 
+}
+
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+/*================
+Author custom css
+================*/
+
+
+
+/*======= 02 Header css=======*/
+
+.header{
+    background: rgb(25,28,81);
+    background: linear-gradient(90deg, rgba(25,28,81,1) 33%, rgba(68,34,121,1) 63%, rgba(68,34,121,1) 100%);
+    padding: 20px 0;
+    border-bottom: 1px solid #4041a7;
+    position: relative;
+}
+.home-icon i{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #3c3d75;
+    border-radius:50% ;
+    text-align: center;
+    line-height: 30px;
+    font-size: 11p;
+    color: #7778a7;
+    background:#442278;
+    
+}
+.home-icon {
+    position: absolute;
+    bottom: -15px;
+    right: 20%;
+}
+
+
+.main-menu a{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: o 15px;
+}
+
+.site-btn{
+    color: #fff;
+    background:#4c69ff ;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: 50px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.site-btn:hover{
+    color: #fff;
+}
+
+.main-menu .dropdown-item{
+    color: red !important;
+}
+
+/*======home-css======*/
+
+.home{
+    background: rgb(25,28,81);
+background: linear-gradient(90deg, rgba(25,28,81,1) 33%, rgba(68,34,121,1) 63%, rgba(68,34,121,1) 100%);
+
+  height:100vh;
+}
+
+.home-content-wrap{
+    color: #fff;
+    display: table;
+    height: 100vh;
+
+}
+.home-content-wrap h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #a1a3ca;
+    
+
+}
+.home-content-wrap h1{
+    text-transform: capitalize;
+    font-size: 70px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.home-input {
+    border: 2px solid #3d346f;
+    border-radius: 50px;
+    font-size: 14px;
+    width: 80%;
+    padding: 25px;
+    position: relative;
+
+   
+}
+.home-input input{
+    background: transparent;
+    border: none;
+    color: #a1a3ca;
+    padding-left: 20px;
+    
+}
+.home-input select{
+    background: transparent !important;
+    color: #a1a3ca;
+    border: none;
+    float: right;
+    font-weight:700 ;
+    margin-right: 170px;
+   
+}
+
+.home-input button{
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px 45px;
+  font-size: 14px;
+}
+
+.home-input button i{
+    padding-right: 10px;
+}
+
+
+.home-wrap{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home-img {
+    position: relative;
+}
+.home-img img{
+    position: absolute;
+    top: 200px;
+    transform: scale(0.8);
+}
+/*======home-css-end======*/
+
+ /*=====category-start=====*/   
+
+.category .nav-item button{
+    text-align: center !important;
+    border: 2px solid #f4f4f4;
+    margin-right: 30px;
+    border-radius: 5px;
+    height: 140px;
+    width: 180px;
+    -webkit-box-shadow: -10px -10px 45px 2px rgba(0,0,0,0.08); 
+box-shadow: -10px -10px 45px 2px rgba(0,0,0,0.08);
+
+}
+
+.category .nav-item .active{
+    background-color: #4c69ff;
+    position: relative;
+}
+
+
+
+.category .nav-item .active::before{
+     position: absolute;
+     content: "";
+     height: 30px;
+     width: 30px;
+     background: #4c69ff;
+     left: 50%;
+     bottom: -10px;
+    margin-left: -15px;
+    transform: rotate(45deg);
+}
+
+.category .nav-item span{
+    display: block;
+}
